@@ -7,7 +7,8 @@
 
 ;; Scene headings (INT./EXT./etc.) with scene numbers
 (scene_start) @keyword
-(scene_heading (description) @emphasis.strong)
+(scene_location) @emphasis.strong
+(scene_time) @string.special
 (scene_number) @number
 
 ;; Section headings (# ACT I, ## OPENING SEQUENCE)
@@ -44,7 +45,8 @@
 
 ;; Centered text >text<
 (centered_start) @operator
-(centered) @emphasis
+(centered_text) @emphasis
+(centered_end) @operator
 
 ;; Page breaks ===
 (page_break) @punctuation.special
