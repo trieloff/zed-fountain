@@ -35,6 +35,7 @@
 
 ;; Action/description lines (narrative prose and forced !)
 (action (text)) @primary
+(action (uppercase_text) @emphasis.strong)
 (forced_action_start) @operator
 
 ;; Transitions (CUT TO:, FADE OUT:, forced >)
