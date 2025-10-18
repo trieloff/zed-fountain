@@ -1,6 +1,7 @@
 name = "Fountain"
 grammar = "fountain"
 path_suffixes = ["fountain"]
+soft_wrap = "editor_width"
 
 # Treat notes as a block comment pair so Cmd+/ toggles [[ … ]]
 block_comments = [["[[", "]]"]]
