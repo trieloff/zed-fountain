@@ -1,6 +1,6 @@
 id = "fountain"
 name = "Fountain"
-version = "0.3.1"
+version = "0.4.0"
 schema_version = 1
 authors = ["Lars Trieloff <lars@trieloff.net>"]
 description = "Comprehensive language support for Fountain screenplay format - syntax highlighting, intelligent indentation, code structure, and file outline for .fountain files"
@@ -13,4 +13,4 @@ icon = "icon.svg"
 
 [grammars.fountain]
 repository = "https://github.com/trieloff/tree-sitter-fountain"
-rev = "1225c688a1e89f66f913295f625572c9e25c9b45"
+rev = "e66b63c86f8960c2606e8c11b632dc71fca2feb7"

@@ -1,7 +1,9 @@
 ;; Fountain screenplay syntax highlighting
 
 ;; Title page - subtle highlighting
+;; Keys are highlighted, continuation lines use default text
 (title_key) @keyword
+(title_key_with_space) @keyword
 
 ;; Scene headings (INT./EXT./etc.) with scene numbers
 (scene_start) @keyword
