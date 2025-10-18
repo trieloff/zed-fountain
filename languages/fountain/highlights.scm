@@ -1,5 +1,14 @@
 ;; Fountain screenplay syntax highlighting
 
+;; Emphasis in dialogue and action (bold but same color)
+(italic) @emphasis.strong
+(bold) @emphasis.strong
+(bold_italic) @emphasis.strong
+(underline) @emphasis.strong
+
+;; Uppercase key words/props in action lines
+(uppercase_text) @emphasis.strong
+
 ;; Title page - subtle highlighting
 ;; Keys are highlighted, continuation lines use default text
 (title_key) @keyword
