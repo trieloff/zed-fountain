@@ -1,0 +1,16 @@
+id = "fountain"
+name = "Fountain"
+version = "0.2.0"
+schema_version = 1
+authors = ["Lars Trieloff <lars@trieloff.net>"]
+description = "Comprehensive language support for Fountain screenplay format - syntax highlighting, intelligent indentation, code structure, and file outline for .fountain files"
+repository = "https://github.com/trieloff/zed-fountain"
+homepage = "https://fountain.io"
+keywords = ["screenplay", "screenwriting", "fountain", "script", "film", "writing", "tree-sitter", "syntax-highlighting"]
+categories = ["writing", "markup-languages"]
+license = "MIT"
+icon = "icon.svg"
+
+[grammars.fountain]
+repository = "https://github.com/trieloff/tree-sitter-fountain"
+rev = "0f715ad"

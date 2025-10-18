@@ -1,0 +1,11 @@
+# Build artifacts
+grammars/*.wasm
+*.log
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~

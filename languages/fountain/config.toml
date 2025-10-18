@@ -1,0 +1,11 @@
+name = "Fountain"
+grammar = "fountain"
+path_suffixes = ["fountain"]
+
+# Treat notes as a block comment pair so Cmd+/ toggles [[ … ]]
+block_comments = [["[[", "]]"]]
+autoclose_before = ";:.,=}])>` \n\t\""
+brackets = [
+    { start = "[[", end = "]]", close = true, newline = false },
+    { start = "(", end = ")", close = true, newline = false },
+]
