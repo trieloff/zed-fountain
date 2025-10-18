@@ -1,3 +1,16 @@
-;; Bracket matching for Fountain
-;; Note: Fountain doesn't have traditional bracket pairs like code
-;; This file can be minimal or empty
+;; Bracket matching for Fountain screenplay format
+
+;; Notes: [[text]]
+(note
+  (note_start) @open
+  "]]" @close)
+
+;; Parentheticals in dialogue: (wryly)
+(parenthetical
+  "(" @open
+  ")" @close)
+
+;; Boneyard (comments): /* text */
+(boneyard
+  (boneyard_start) @open
+  "*/" @close)
