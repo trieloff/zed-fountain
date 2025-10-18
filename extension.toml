@@ -13,4 +13,4 @@ icon = "icon.svg"
 
 [grammars.fountain]
 repository = "https://github.com/trieloff/tree-sitter-fountain"
-rev = "a038b199ab62c7900adfd8691aafa008891c85ee"
+rev = "55ccaa5755a9104f8a5bc0989c253ccbeb7ac356"
