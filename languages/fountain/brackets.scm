@@ -1,4 +1,3 @@
 ;; Bracket matching for Fountain
-
-;; Parentheticals in dialogue
-(parenthetical) @bracket
+;; Note: Fountain doesn't have traditional bracket pairs like code
+;; This file can be minimal or empty

@@ -1,8 +1,7 @@
 ;; Fountain screenplay syntax highlighting
 
-;; Title page
-(title_page_key) @keyword
-(title_page_field (description) @string.special)
+;; Title page - subtle highlighting
+(title_key) @keyword
 
 ;; Scene headings (INT./EXT./etc.) with scene numbers
 (scene_start) @keyword
