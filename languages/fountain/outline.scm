@@ -7,7 +7,7 @@
   (description) @name) @item
 
 ;; Scene headings (INT./EXT./etc.)
-;; Show scene type prefix (e.g., "INT." or "EXT.")
+;; Show scene type prefix (e.g., "INT." or "EXT.") and location
 (scene_heading
   (scene_start) @context
-  (description) @name) @item
+  (scene_location) @name) @item
