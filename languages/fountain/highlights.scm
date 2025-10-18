@@ -27,14 +27,14 @@
 ;; Character names (ALL CAPS, may include (O.S.), (V.O.), etc.)
 (character) @label
 
-;; Dialogue text
-(dialogue (line) @string)
+;; Dialogue text (default color for non-emphasized text)
+(dialogue (text) @string)
 
 ;; Parentheticals (actor directions in dialogue)
 (parenthetical) @comment.doc
 
 ;; Action/description lines (narrative prose and forced !)
-(action (line)) @primary
+(action (text)) @primary
 (forced_action_start) @operator
 
 ;; Transitions (CUT TO:, FADE OUT:, forced >)
