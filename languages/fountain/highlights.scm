@@ -29,6 +29,7 @@
 
 ;; Dialogue text (default color for non-emphasized text)
 (dialogue (text) @string)
+(dialogue_line_start) @string
 
 ;; Parentheticals (actor directions in dialogue)
 (parenthetical) @comment.doc
